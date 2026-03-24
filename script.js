@@ -48,3 +48,22 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+switchRed.addEventListener("click", () => {
+  title.style.color = "red";
+});
+
+switchBlue.addEventListener("click", () => {
+  title.style.color = "blue";
+});
+
+switchGreen.addEventListener("click", () => {
+  title.style.color = "green";
+});
+
+switchPurple.addEventListener("click", () => {
+  title.style.color = "purple";
+});
+
+switchOrange.addEventListener("click", () => {
+  title.style.color = "orange";
+});
